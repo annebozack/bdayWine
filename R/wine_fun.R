@@ -19,6 +19,6 @@ wine_fun = function(type='linear', growth=1){
 	if (type == 'linear'){
 		p + stat_function(fun = funLinear) + xlim(0,100) + labs(x='Wine (glasses)', y='Happiness (N smiles)', title='Relationship between wine consumption and happiness')
 	} else if (type == 'exponential'){
-		p + stat_function(fun = funExp) + xlim(0,100)
+		p + stat_function(fun = funExp) + xlim(0,100) + labs(x='Wine (glasses)', y='Happiness (N smiles)', title='Relationship between wine consumption and happiness')
 	}
 }
