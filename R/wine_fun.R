@@ -6,9 +6,9 @@
 #' @keywords wine
 #' @export
 #' @examples alexBday_fun(type='exponential', growth='5')
-#' alexBday()
+#' wine_fun()
 
-alexBday_fun = function(type='linear', growth=1){
+wine_fun = function(type='linear', growth=1){
 	funLinear = function(x){
 		x*growth
 	}
