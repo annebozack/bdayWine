@@ -5,7 +5,7 @@
 #' @param growth How much does wine effect happiness? Default is growth = 1
 #' @keywords wine
 #' @export
-#' @examples alexBday_fun(type='exponential', growth='5')
+#' @examples wine_fun(type='exponential', growth='5')
 #' wine_fun()
 
 wine_fun = function(type='linear', growth=1){
